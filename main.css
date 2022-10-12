@@ -1,10 +1,10 @@
 body {
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 110%;
-    line-height: 55%;
+    font-weight: 200%;
+    line-height: 50%;
 }
 
-.top {
+.container {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -15,17 +15,76 @@ body {
     width: 500px;
 }
 
-p {
-    text-align: left;
-    padding-left: 20px;
-}
-
-p2 {
-    text-align: left;
-    padding-left: 20px;
-    font-size: 80%
+.main {
+    
 }
 
 .contact {
-    font-size: 80%;
+    font-size: 90%;
+    position: relative;
+    float:right; 
+    font-size: 70%;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.name {
+    position: relative;
+    float:left;
+    text-align: left;   
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.skills {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 50%;
+}
+
+.skills h {
+    font-size:120%;
+}
+
+.skills p {
+    font-size:90%;
+}
+
+
+.experience {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 50%;
+    text-align: left;
+}
+
+.education {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 50%;
+    text-align: left;
+}
+
+/*
+.experience:hover {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 50%;
+    color: dimgrey;
+    cursor: pointer;
+}
+*/
+
+
+
+.name p {
+    font-size: 150%;
+}
+
+.name p1 {
+    font-size: 90%;
 }
